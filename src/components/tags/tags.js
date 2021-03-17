@@ -2,7 +2,7 @@ import React from "react";
 import {Badge, Col, Menu, Row} from "antd";
 
 let Tags = (props) => {
-    debugger
+
     let contMap =  props.tags.map( (el)=>{
         return(
             <Menu.Item key={el.name} style={{verticalAlign: "center", display: 'inline-flex', justifyContent: 'center'}}>

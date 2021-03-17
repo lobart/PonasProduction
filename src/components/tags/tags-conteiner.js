@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {connect} from "react-redux";
 import Tags from "./tags";
 
@@ -6,15 +6,16 @@ import {compose} from "redux";
 import {getTags} from "../../reducers/tags-reducer";
 
 const TagsContainer = (props) => {
-    props.getTags();
+    useEffect(() => {
+        props.getTags();
+    },[]);
     return (
-        <Tags props={props}/>
+        <Tags tags={props.tags}/>
     )
 }
 
 let mapStateToProps = (state) => ({
-    tags: state.tagsPage.tags,
-    isAuth: state.tagsPage.isAuth
+    tags: state.tagsPage.tags
 })
 
 export default compose (

@@ -26,10 +26,9 @@ export let setToggleIsFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isF
 export let setTags = (tags) => ({type: SETTAGS, tags});
 export let getTags = () => { return async (dispatch) => {
     dispatch(setToggleIsFetching(true));
-
     let data = await tagsAPI.getTags();
     dispatch(setToggleIsFetching(false));
-    dispatch(setTags(data.tags));
+    dispatch(setTags(data));
 }}
 
 export default  tagsReducer;
