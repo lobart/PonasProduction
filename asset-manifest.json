@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PonasProduction/static/css/main.e1d8654c.chunk.css",
-    "main.js": "/PonasProduction/static/js/main.787433c1.chunk.js",
-    "main.js.map": "/PonasProduction/static/js/main.787433c1.chunk.js.map",
+    "main.js": "/PonasProduction/static/js/main.64912be4.chunk.js",
+    "main.js.map": "/PonasProduction/static/js/main.64912be4.chunk.js.map",
     "runtime-main.js": "/PonasProduction/static/js/runtime-main.5ccafea9.js",
     "runtime-main.js.map": "/PonasProduction/static/js/runtime-main.5ccafea9.js.map",
     "static/css/2.98e7ac70.chunk.css": "/PonasProduction/static/css/2.98e7ac70.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.98e7ac70.chunk.css",
     "static/js/2.71e7750a.chunk.js",
     "static/css/main.e1d8654c.chunk.css",
-    "static/js/main.787433c1.chunk.js"
+    "static/js/main.64912be4.chunk.js"
   ]
 }
