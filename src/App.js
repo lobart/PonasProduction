@@ -27,17 +27,6 @@ function App() {
           <Layout>
               <TagsContainer/>
           </Layout>
-          <Layout style={{background: "#141414"}}>
-              <Row style={{ display: 'inline-flex', justifyContent: 'center'}}>
-                  <Col>
-                      <Button>Up</Button>
-                  </Col>
-                  <Col>
-                      <Button>Down</Button>
-                  </Col>
-              </Row>
-
-          </Layout>
           <Footer style={{color:"white",background: "#141414", display: 'inline-flex', justifyContent: 'center'}}>
               Tobi Pizda
           </Footer>

@@ -14,8 +14,8 @@ export const tagsAPI = {
             .then(response => {
                 console.log(response);
                 return (response.data)})},
-    postTags(tags){
-    return instance.post(`tags`, tags, {headers:
+    postTag(name){
+    return instance.post(`tags`, {name : name}, {headers:
             {"Content-Type": 'application/json'}
     })
         .then(response => {
